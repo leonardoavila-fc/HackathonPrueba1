@@ -1,0 +1,5 @@
+@echo off
+rem Lanzador para terminal, uso: .hackathon\setup.cmd --check o --entregar
+chcp 65001 >nul
+powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0setup.ps1" %*
+exit /b %ERRORLEVEL%

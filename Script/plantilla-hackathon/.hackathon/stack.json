@@ -1,0 +1,9 @@
+{
+  "python": "3.12.12",
+  "uv": "0.11.19",
+  "node": "22.23.1",
+  "npm_major": 10,
+  "python_requirements": "requirements.txt",
+  "python_lock": "requirements.lock",
+  "dashboard_dir": "dashboard"
+}
